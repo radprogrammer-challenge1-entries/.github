@@ -6,117 +6,56 @@ The first RAD Programmer Coding Challenge was launched with a [blog post](https:
 This organization has a fork of every contestant's entry into the contest.  18 different contestants with their own custom Minesweeper implementation developer in RAD Studio, mostly with Delphi but also with C++ Builder.
 
 
-----
+## Contestants
 
-Introducing the first in a new series of challenges for the RAD Studio developer community. The **RAD Programmer Challenges** are designed to inspire innovation, increase the visibility of RAD Studio online, and encourage more online community involvement. Kicking off this series, I am inviting developers to build a **classic MineSweeper game** in RAD Studio. Sharpen your UI design, game development, and algorithmic thinking while creating a fun and nostalgic game. With **bonus points for live streaming your coding process**, this challenge is a great opportunity to **engage with the developer community, show off your Delphi expertise, and sharpen your game development skills**!
-
----
-
-![RADProgrammer Challenge #1 - MineSweeper Game Build](https://ideasawakened.com/assets/blog/Delphi-Programming/RADProgrammer-Challenge1-MineSweeper-Game-Build.png)
-
-
-## **🎯 Challenge Goal**
-Your task is to **develop a fully functional MineSweeper game** using **RAD Studio**. Your implementation should closely follow the behavior of classic MineSweeper while allowing creative enhancements.
-
----
-
-## **📜 Contest Rules**
-- **Coded using RAD Studio 12 Athens** (Note, the [Free Community Edition](https://www.embarcadero.com/products/delphi/starter/free-download) was recently [updated](https://blogs.embarcadero.com/delphi-12-and-cbuilder-12-community-editions-released/) to RAD Studio 12 so anyone can participate in this challenge at no cost.)
-- **Source published on GitHub** to share with the community  
-- **100% open-source** with a **permissive license** (_Such as: MIT, Apache 2.0, BSD, LGPL with static linking exception - no GPL_)  
-- **No reliance on commercial components** so everyone can download and immediately build and play the game
-- Must follow **core MineSweeper game mechanics** (described below)  
-- **Bonus Points** for streaming your game development process on social media **(YouTube, Twitch, TikTok, X, or Instagram)** (Note - RAD Studio developers from around the world are invited to join and you can certainly speak any language, but the judge only speaks English so English subtitles are highly suggested at a minimum.)
-
----
-
-## **🖥️ MineSweeper Game Features**
-A classic **MineSweeper game** consists of:
-
-- **A grid-based game board** (usually 9x9, 16x16, or custom size options).
-- **Randomly placed mines** hidden across the board.
-- **Number hints on tiles** indicating adjacent mines.
-- **Left-click to reveal a tile**, right-click to mark/unmark a potential mine.
-- **Winning condition:** Reveal all non-mine tiles.
-- **Losing condition:** Clicking on a mine ends the game.
-- **Timer & score tracking** 
-
-💡 **Enhancement Ideas:**
-- Customizable grid sizes and difficulty levels.
-- High score tracking.
-- A hint system or a safe first move.
-- Themed UI elements for a modern look.
-- Sound effects for tile reveals and explosions.
-- Get your game listed in one or more of the major play stores from Google, Apple, and Microsoft
-- Create blog post(s) to discuss your game build and to generate traffic to your GitHub repository
+| GitHub Username | Avatar | Language Used | Repo | Stars | Other |
+|---|---|---|---|---|--|
+|[ImperiumDelphi](https://github.com/ImperiumDelphi)|<img src="https://avatars.githubusercontent.com/u/10120905?s=40&v=4" alt="ImperiumDelphi" style="width:35px; height:35px">  | Delphi | [minesweeper](https://github.com/ImperiumDelphi/minesweeper)  | 74 | [Google Play](https://play.google.com/store/apps/details?id=br.com.imperium.MineSweeper) |
+| [HemulGM](https://github.com/HemulGM) | <img src="https://avatars.githubusercontent.com/u/22197242?s=40&v=4" alt="HemulGM" style="width:35px; height:35px">  | Delphi | [MineSweeperFMX](https://github.com/HemulGM/MineSweeperFMX)  | 44 | |
+| [abritolda1972](https://github.com/abritolda1972) | <img src="https://avatars.githubusercontent.com/u/87702679?s=40&v=4" alt="abritolda1972" style="width:35px; height:35px">  | Delphi | [MinesweeperFMX](https://github.com/abritolda1972/MinesweeperFMX) | 25 | [Google Play](https://play.google.com/store/apps/details?id=com.abrito.Minesweeper) |
+| [jimmckeeth](https://github.com/jimmckeeth) | <img src="https://avatars.githubusercontent.com/u/821930?s=40&v=4" alt="jimmckeeth" style="width:35px; height:35px">  | Delphi | [MineSweeperHex](https://github.com/jimmckeeth/MineSweeperHex)  | 16 | |
+| [Qadiany3D](https://github.com/Qadiany3D) | <img src="https://avatars.githubusercontent.com/u/111756385?s=40&v=4" alt="Qadiany3D" style="width:35px; height:35px">  | C++ | [MQMinesweeper_2025](https://github.com/Qadiany3D/MQMinesweeper_2025) | 16 | |
+| [okbach](https://github.com/okbach) | <img src="https://avatars.githubusercontent.com/u/33584599?s=40&v=4" alt="okbach" style="width:35px; height:35px">  | Delphi | [minesweeper](https://github.com/okbach/minesweeper)  | 13 | [YouTube Build Tutorial](https://youtu.be/7hGfkYp-KMM?list=PLMWIpy3fKtNwuv0lkc0Ys5O7bObzU1XJY) |
+| [ForgotMyCode](https://github.com/ForgotMyCode) | <img src="https://avatars.githubusercontent.com/u/79061723?s=40&v=4" alt="ForgotMyCode" style="width:35px; height:35px"> | Delphi | [Minesweeper](https://github.com/ForgotMyCode/Minesweeper) | 11 | |
+| [VincentGsell](https://github.com/VincentGsell) | <img src="https://avatars.githubusercontent.com/u/5397337?s=40&v=4" alt="VincentGsell" style="width:35px; height:35px"> | Delphi | [MineSweeper3D](https://github.com/VincentGsell/MineSweeper3D) | 11 | |
+| [BoscoBecker](https://github.com/BoscoBecker) | <img src="https://avatars.githubusercontent.com/u/6303278?s=40&v=4" alt="BoscoBecker" style="width:35px; height:35px"> | Delphi | [MineSweeper](https://github.com/BoscoBecker/MineSweeper)  | 10 | |
+| [davidreed1666](https://github.com/davidreed1666) | <img src="https://avatars.githubusercontent.com/u/13905284?s=40&v=4" alt="davidreed1666" style="width:35px; height:35px"> | Delphi | [davidreed](https://github.com/davidreed1666/davidreed)  | 10 | |
+| [SirRufo](https://github.com/SirRufo) | <img src="https://avatars.githubusercontent.com/u/6330968?s=40&v=4" alt="SirRufo" style="width:35px; height:35px"> | Delphi | [delphi-minesweeper](https://github.com/SirRufo/delphi-minesweeper)  | 9 | |
+| [dinochen1983](https://github.com/dinochen1983) | <img src="https://avatars.githubusercontent.com/u/27854264?s=40&v=4" alt="dinochen1983" style="width:35px; height:35px"> | Delphi | [Color_Minesweeper](https://github.com/dinochen1983/Color_Minesweeper)  | 9 | [Blog Article](http://dinochen.com/article.asp?id=466)|
+| [KimMadsen](https://github.com/KimMadsen) | <img src="https://avatars.githubusercontent.com/u/86893031?s=40&v=4" alt="KimMadsen" style="width:35px; height:35px"> | Delphi | [Minesweeper](https://github.com/KimMadsen/Minesweeper)  | 9 | |
+| [AlexandrNevskiy](https://github.com/AlexandrNevskiy) | <img src="https://avatars.githubusercontent.com/u/206868274?s=40&v=4" alt="AlexandrNevskiy" style="width:35px; height:35px"> | Delphi | [MineSweeperD12](https://github.com/AlexandrNevskiy/MineSweeperD12)  | 8 | |
+| [AnthonySWest](https://github.com/AnthonySWest) | <img src="https://avatars.githubusercontent.com/u/103100009?s=40&v=4" alt="AnthonySWest" style="width:35px; height:35px"> | C++ | [sweep-them-mines](https://github.com/AnthonySWest/sweep-them-mines)  | 7 | |
+| [Kenthorr](https://github.com/Kenthorr) | <img src="https://avatars.githubusercontent.com/u/61025441?s=40&v=4" alt="Kenthorr" style="width:35px; height:35px"> | Delphi | [GoblinSweeper](https://github.com/Kenthorr/GoblinSweeper)  | 7 | |
+| [ThomasCHICHEPORTICHE](https://github.com/ThomasCHICHEPORTICHE) | <img src="https://avatars.githubusercontent.com/u/17219614?s=40&v=4" alt="ThomasCHICHEPORTICHE" style="width:35px; height:35px"> | Delphi | [ThochiMineSweeper](https://github.com/ThomasCHICHEPORTICHE/ThochiMineSweeper)  | 6 | |
+| [AdonisMunoz](https://github.com/AdonisMunoz) | <img src="https://avatars.githubusercontent.com/u/120043556?s=40&v=4" alt="AdonisMunoz" style="width:35px; height:35px"> | C++ | [MQMinesweeper_2025](https://github.com/AdonisMunoz/MQMinesweeper_2025)  | 1 | |
 
 
----
-
-## ⚖️ Judging Criteria
-Submissions will be judged based on the following key factors:
-
-1️⃣ **Game Functionality (30%)** – Does the game follow the core MineSweeper rules and operate without bugs?  
-2️⃣ **User Experience & UI Design (20%)** – Is the interface intuitive, visually appealing or unique?  
-3️⃣ **Code Quality & Structure (10%)** – Is the code well-structured and maintainable?  
-4️⃣ **Community Engagement (20%)** – Number of **GitHub stars** and **video engagement metrics** (views, likes, shares).  
-5️⃣ **Bonus Features (20%)** – Extra credit for features like difficulty levels, animations, or creative enhancements.
-
-Extra points allocated for your overall online presence attained and general creativity.  
-
----
-
-## **🏅 Prizes & Recognition**
-- 🏆 **Grand Prize:** $500 (paid in **Bitcoin**)
-- 🎫 Winner also receives a free license to [Pascal Expert](https://peganza.com/products_pex.html) a powerful IDE plug-in that offers static code analysis and is a younger brother to the ultra-powerful [Pascal Analyzer](https://peganza.com/products_pal.html) product which has the widest variety of static code analysis reports for Pascal code anywhere and is a "must-have" for any serious Delphi developer.  (See my older [blog post on Pascal Expert](https://ideasawakened.com/post/product-review-pascal-expert))  Thank you Peganza for providing this free license!
-- 🎖 **All Entries:** Will be **listed in an upcoming blog post**, so everyone gets recognition!  
-
----
-
-## **🕒 Timeline & Submission**
-- 📅 **Submission Deadline:** April 26, 2025
-- 📍 **How to Submit:** Host your project on GitHub, and then post a link to your repository within a message in the [MineSweeper Game Build Challenge discussion group on GitHub](https://github.com/orgs/radprogrammer/discussions/categories/minesweeper-game-build-challenge)  (Note: you may want to include your public Bitcoin wallet address to receive any tips from fans.  I may randomly send a small amount of BitCoin to participants depending on how many participate.)
-- 👀 To help improve visibility on GitHub, the following search topics are required on your GitHub repository. (Click the gear icon in the `About` section and ensure these four search topics are listed.)
-  - `radstudio`
-  - `delphi`
-  - `minesweeper`
-  - `radprogrammer-challenge1`
-
-You can substitute `cppbuilder` for `delphi`, if applicable.  You can also use [GitLab](https://gitlab.com/) or [CodeBerg](https://codeberg.org/) instead of GitHub to host your code (but you still need to post your entry message to the GitHub discussion group.)
-
---- 
-
-## **📚 Resources & Getting Started**
-Need a head start? Here are some useful resources to help you build your game:
-
-- Here is a custom GitHub query for Minesweeper games written in Pascal/Delphi that may give you some ideas
-[https://github.com/search?q=minesweeper+language%3Adelphi+language%3Apascal&sort=updated&order=desc&type=repositories](https://github.com/search?q=minesweeper+language%3Adelphi+language%3Apascal&sort=updated&order=desc&type=repositories)
-
-- Here are a couple game engines for Delphi:
-  - [Castle Game Engine on GitHub](https://github.com/castle-engine/castle-engine)
-  - [ApusGameEngine on GitHub](https://github.com/Cooler2/ApusGameEngine)
-
-- Learn Delphi blog post: [Everything You Need To Use FireMonkey As A Game Engine](https://learndelphi.org/everything-you-need-to-use-firemonkey-as-a-game-engine/)
-
-- Embarcadero blog post: [Get Started Building Cross-Platform Games In Delphi FireMonkey With Alien Invasion Sample](https://blogs.embarcadero.com/get-started-building-cross-platform-games-in-delphi-firemonkey-with-alien-invasion-sample/)
-
-Please get in the habit to **STAR** any Delphi-related repository you view on GitHub while you are there!  It's a single click that's easy and completely free to do while it benefits the author and the language as a whole.
-
---- 
-
-## **🔗 Get Involved!**
-🌟 The **RAD Programmer Challenge** is your opportunity to build a **fun, open-source game in Delphi**, expand the **RAD Studio ecosystem**, and connect with other passionate developers. Whether you are a **game development enthusiast** or just looking for a fun side project, this is the perfect challenge to show off your skills!  Join today and start coding! 🚀
+## Winner - Jaques Nascimento
 
 
-🎁 **Support the participants!** 
-  - Please **Star** every GitHub repository submitted to the contest.  Here's a link to the [GitHub topic search: radprogrammer-challenge1](https://github.com/search?q=topic%3Aradprogrammer-challenge1&type=repositories) (It will obviously take a while before any repository shows up with that topic, so _check back often_!)
-  - Please **Follow** every participating developer on GitHub.
-  - Consider **sponsoring** RAD Studio developers on GitHub if they have that option enabled.
-  - If you enjoy someone's live stream or video, **like and share it** to help boost their chances of winning!  
-  
-  
- 🤝 **Support the sponsors!** 
-  - Visit [https://peganza.com](https://peganza.com/) and check out [Pascal Analyzer](https://peganza.com/products_pal.html), [Pascal Browser](https://peganza.com/products_pab.html), and [Pascal Expert](https://peganza.com/products_pex.html)!
-  - If you are selling a product for RAD Studio developers and would like to sponsor a future challenge, please reach out to me and perhaps we can include a discount or free license of your software for the winner(s).
+The winner by popular demand is **Jaques Nascimento** as GitHub user: [ImperiumDelphi](https://github.com/ImperiumDelphi)  Jaques is an Embarcadero MVP from Brazil.
 
-⚡ **More Challenges To Be Announced!** This is hopefully the first **RAD Programmer Challenge** in a series, so stay tuned!  
+A lot of effort was put into this game with animations, sounds, and multiple game play variations.  It is also one of only two games that were listed on the Google Play Store which was a large bonus.
+
+The judging was tough - I initially favored **HemulGM**'s MineSweeperFMX when it was first entered.  Then jumped to **Jim McKeeth**'s hex-board layout which is really cool and unique.  (**Andonis Munoz** also has a very unique game board selections.)   I really enjoyed **Arbrito**'s game on the Google Play store and his artwork was great. And **Mohammad Qadiany**'s MineSweeper 2025 is a runner up due to its unique functionality, but the **GitHub Stars** win out this time.  
+
+Besides an overwhelming win in Stars, and the additional bonus of getting listed on Google Play, there were a few unique game play features including a "Radar" that very briefly shows mine placement, and a "Safe Play" option.  
+
+## Screen Shots
+
+#### Title Screen
+
+![TitleScreen](https://github.com/user-attachments/assets/e50a08fc-c47c-4302-be00-25ef01bcc6a2)
+
+#### Game Selection
+
+![GameSelection](https://github.com/user-attachments/assets/22d8091b-c50f-4788-bc29-86131ed3ae8c)
+
+#### Game Play
+
+![GamePlay](https://github.com/user-attachments/assets/3281e29b-6632-473f-84f6-b629241243f8)
+
+#### Jaques Nascimento, Spartan Warrior
+
+![Jaques-Nascimento](https://github.com/user-attachments/assets/32e40286-81f8-4758-bed8-878907e82b34)
+
